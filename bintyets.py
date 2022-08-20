@@ -24,7 +24,7 @@ def code():
         code += random.choice("a")
     return code
 
-data = "天皇陛下"
+data = ""
 link = image(data)
 links = image(link)
 download_img(link, code())
