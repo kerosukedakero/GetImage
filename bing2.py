@@ -4,6 +4,8 @@ import shutil
 import bs4
 import ssl
 
+#hoge
+
 ssl._create_default_https_context = ssl._create_unverified_context
 def image(data):
     Res = requests.get("https://www.bing.com/images/search?q=" + data + "&form=QBLH&sp=-1&pq=" + data + "&sc=8-4&qs=n&cvid=64E35DBFDF524E428033C442654F2E7C&first=1&tsc=ImageHoverTitle")
